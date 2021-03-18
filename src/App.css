@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body {
+  font-family: 'Josefin Sans' !important;
+  height: 100%;
+  background: #ffd89b;
+  background: -webkit-linear-gradient(to left, #19547b, #ffd89b);
+  background: linear-gradient(to left, #19547b, #ffd89b);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-mine {
+  background: #0F2027;
+  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-decoration-none {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-1 {
+  background: #fceabb;
+  background: -webkit-linear-gradient(to left, #f8b500, #fceabb);
+  background: linear-gradient(to left, #f8b500, #fceabb);
 }
 
-.App-link {
-  color: #61dafb;
+.btn-round {
+  border-radius: 40px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-me2 {
+  background: #FF4E50;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #F9D423, #FF4E50);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #F9D423, #FF4E50);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-card {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.bg-card-header {
+  background: #000428;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #004e92, #000428);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #004e92, #000428);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-note {
+  background: #77A1D3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #E684AE, #79CBCA, #77A1D3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #E684AE, #79CBCA, #77A1D3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-card-top {
+  background: #2b5876;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4e4376, #2b5876);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
